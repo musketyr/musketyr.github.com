@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: In the Clouds
+tagline: Vladimír Oraný
 ---
 {% include JB/setup %}
 
