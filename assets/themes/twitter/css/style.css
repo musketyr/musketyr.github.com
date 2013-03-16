@@ -63,3 +63,11 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+h2 a {
+  color: #000;
+}
+
+h2 a:hover {
+  color: #000;
+}
