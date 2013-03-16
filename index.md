@@ -9,7 +9,7 @@ tagline: Vladimír Oraný
 <div>
     <span>{{ post.date | date_to_string }}</span>
     <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
-    <summary>{{ post.content}}</summary>
+    <summary>{{ post.content }}</summary>
     <hr/>
 </div>
 {% endfor %}
