@@ -26,3 +26,7 @@ tagline: Vladimír Oraný
   {% assign tags_list = site.tags %}  
   {% include JB/tags_list %}
 </ul>
+
+### Feeds
+
+[RSS](/rss.xml), [Atom](/atom.xml)
