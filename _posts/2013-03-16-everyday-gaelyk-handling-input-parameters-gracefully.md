@@ -3,7 +3,7 @@ layout: post
 title: "Everyday Gaelyk: Handling input parameters gracefully"
 description: "How to prevent errors from multiple parameters submission."
 category: Everyday Gaelyk
-tags: [gaelyk 2.0, groovy, groovlets, templates, params]
+tags: [gaelyk 2.0, groovlets, templates, params]
 ---
 
 The `params` object added to [groovlets](http://groovy.codehaus.org/Groovlets) and [templates](http://groovy.codehaus.org/Groovy+Templates) has one

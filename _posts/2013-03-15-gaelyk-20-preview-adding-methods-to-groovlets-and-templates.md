@@ -3,7 +3,7 @@ layout: post
 title: "Everyday Gaelyk: Adding methods to groovlets and templates"
 description: "Adding methods to the templates to simulate Grails tags."
 category: Everyday Gaelyk
-tags: [gaelyk 2.0, groovy, groovlets, templates]
+tags: [gaelyk 2.0, groovlets, templates]
 ---
 
 Since [Gaelyk 2.0]({% post_url 2013-03-16-everyday-gaelyk-living-on-the-edge-with-gaelyk-snapshots %}) is build on the top of [Groovy 2.1 branch](http://groovy.codehaus.org/Groovy+2.1+release+notes), 

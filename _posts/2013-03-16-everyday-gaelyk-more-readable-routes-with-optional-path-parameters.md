@@ -3,7 +3,7 @@ layout: post
 title: "Everyday Gaelyk: More readable routes with optional path parameters"
 description: "How to save lines and create more routes at once with optional path parameters"
 category: Everyday Gaelyk
-tags: [gaelyk 2.0, groovy, routes]
+tags: [gaelyk 2.0, routes]
 ---
 
 At the time of writing, the original [Gaelyk documentation](http://gaelyk.appspot.com/tutorial/url-routing) 

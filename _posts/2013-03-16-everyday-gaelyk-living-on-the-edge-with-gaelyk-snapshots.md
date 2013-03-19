@@ -3,7 +3,7 @@ layout: post
 title: "Everyday Gaelyk: Living on the edge with Gaelyk snapshots"
 description: "How to setup Gaelyk Gradle build to use latest snapshots"
 category: Everyday Gaelyk
-tags: [gaelyk 2.0, groovy, gradle]
+tags: [gaelyk 2.0, gradle]
 ---
 
 I've setup [Gaelyk Continuous Integration Server](https://gaelyk.ci.cloudbees.com/) on [CloudBees](http://www.cloudbees.com) few months ago so each time
