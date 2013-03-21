@@ -18,6 +18,8 @@ To enable automatic restarting of queries add `restart automatically` statement 
 Currenty, you can only use this option on `iterate` method, because it doesn't make much sense with `execute`
 method.
 
+*Simple restarting query*
+
     def comments = datastore.iterate {
         from Comment
         limit 50000
