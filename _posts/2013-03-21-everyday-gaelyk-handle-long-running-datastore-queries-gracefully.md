@@ -27,6 +27,7 @@ method.
     }
     
     for(comment in comments){
+        // would throw exception randomly for long running queries
         process comment
     }
 
