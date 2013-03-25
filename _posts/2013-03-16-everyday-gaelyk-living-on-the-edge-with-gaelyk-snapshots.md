@@ -43,7 +43,9 @@ To disable caching for all snapshot versions add following to your `build.gradle
     }
     
 If you haven't adopted Gradle for Gaelyk development, you can download latest snapshots from 
-[Sonatype OSS Snapshot Repository](https://oss.sonatype.org/content/repositories/snapshots/org/gaelyk/gaelyk/2.0-SNAPSHOT/).
+[Sonatype OSS Snapshot Repository](https://oss.sonatype.org/content/repositories/snapshots/org/gaelyk/gaelyk/2.0-SNAPSHOT/). Be sure you are using
+the same [Groovy](http://groovy.codehaus.org/Download) 
+and [GAE SDK](https://developers.google.com/appengine/downloads) version as listed in [common build configuration](https://raw.github.com/gaelyk/gaelyk/master/common.gradle).
 
 Here you go, you're now using the latest version of [Gaelyk](http://gaelyk.appspot.com) available.
 
