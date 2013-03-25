@@ -31,6 +31,19 @@ and change the version of your [Gaelyk](http://gaelyk.appspot.com) dependency to
         ...
         compile 'org.gaelyk:gaelyk:2.0-SNAPSHOT'
     }
+    
+<span class="label">EDIT</span>
+By default Gradle caches the snapshot versions. 
+To disable caching for all snapshot versions add following to your `build.gradle` file:
+    
+*Disable snapshot versions caching*
+    
+    configurations.all {
+        resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
+    
+If you haven't adopted Gradle for Gaelyk development, you can download latest snapshots from 
+[Sonatype OSS Snapshot Repository](https://oss.sonatype.org/content/repositories/snapshots/org/gaelyk/gaelyk/2.0-SNAPSHOT/).
 
 Here you go, you're now using the latest version of [Gaelyk](http://gaelyk.appspot.com) available.
 
