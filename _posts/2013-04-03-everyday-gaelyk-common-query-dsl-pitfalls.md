@@ -100,3 +100,4 @@ Using Query DSL you should basically always take care about two important things
 2. All properties you're querying must be indexed. When using `@Entity` annotations all the properties are unindexed by default.
 
 {% include JB/setup %}
+
