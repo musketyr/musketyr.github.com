@@ -96,7 +96,7 @@ are unindexed by default. You need to mark the field `@Indexed` to use it in que
 
 Using Query DSL you should basically always take care about two important things:
 
-1. Property names are always converted to String, this is may make mess if the variable with the same name is already defined (even in Gaelyk shortcut bindings).
-2. All properties you're querying are indexed. When using `@Entity` annotations all the properties are unindexed by default.
+1. Property names are always converted to String, this is may make mess if the variable with the same name is already defined (even in Gaelyk shortcut bindings). Use String constants instead of property names in case of any possible name conflict.
+2. All properties you're querying must be indexed. When using `@Entity` annotations all the properties are unindexed by default.
 
 {% include JB/setup %}
