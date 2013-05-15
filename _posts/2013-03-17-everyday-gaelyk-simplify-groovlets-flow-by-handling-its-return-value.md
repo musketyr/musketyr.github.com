@@ -38,7 +38,7 @@ In fact, this example is pretty trivial but still it would be handy if we can cu
 *JSON groovlet, version with plugin*
 
      // see following
-     response.renderAsJson = true
+     request.renderAsJson = true
 
      if(users.isUserLoggedIn){
          return [status: 401, error: 'You must be logged in'] 
