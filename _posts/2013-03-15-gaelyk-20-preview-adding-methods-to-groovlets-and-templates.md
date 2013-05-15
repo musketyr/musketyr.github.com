@@ -25,7 +25,7 @@ If you create simple extension class like following
     
     class GroovyTemplatesExtensions {
     
-        String helloWorld(Script self) { "Hello World" }
+        static String helloWorld(Script self) { "Hello World" }
     }
 
 and register it in `org.codehaus.groovy.runtime.ExtensionModule` file in the `META-INF/services` directory
@@ -61,7 +61,7 @@ The usage is really simple, the implementation isn't difficult either. You basic
 
 *Method implementation*
 
-    void secured(Script self, Closure body) {
+    static void secured(Script self, Closure body) {
         self.with {
             if(users.userLoggedIn){
                 body()
