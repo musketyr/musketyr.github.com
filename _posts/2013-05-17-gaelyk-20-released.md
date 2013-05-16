@@ -13,7 +13,7 @@ Gaelyk 2.0 is finally out. Some of the new features were already listed on this 
 The most important features are:
 
  * Groovy 2.0 support and removing `GaelykCategory`
- * [Search DSL](http://gaelyk.appspot.com/tutorial/#advanced_fulltext_search)
+ * [Search DSL](http://gaelyk.appspot.com/tutorial/app-engine-shortcuts#advanced_fulltext_search)
  * [Optinal routes parameters](http://gaelyk.appspot.com/tutorial/url-routing#path-variables)
  * [Better parameters conversion](http://gaelyk.appspot.com/tutorial/views-and-controllers#better-params-handling)
  * Better coercion performance
